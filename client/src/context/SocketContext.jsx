@@ -9,7 +9,7 @@ export const SocketContextProvider = ({ children }) => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    setSocket(io("http://localhost:5173"));
+    setSocket(io("https://real-estate-1-iax5.onrender.com"));
   }, []);
 
   useEffect(() => {
